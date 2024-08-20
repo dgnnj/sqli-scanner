@@ -64,12 +64,12 @@ go run main.go --url=<URL> --param=<param> [options]
 
 ## Options
 
---**url**: The target URL to scan for SQLi vulnerabilities.
---**param**: The parameter name to test.
---**user-agent**: The User-Agent to use in requests. Use random for a random User-Agent.
---**delay**: Waiting time in seconds for Time-based SQLi tests.
---**techniques**: SQLi techniques to test: B=Boolean, T=Time, E=Error.
---**report**: File to save the vulnerability report (default: report.txt).
+- **url**: The target URL to scan for SQLi vulnerabilities.
+- **param**: The parameter name to test.
+- **user-agent**: The User-Agent to use in requests. Use random for a random User-Agent.
+- **delay**: Waiting time in seconds for Time-based SQLi tests.
+- **techniques**: SQLi techniques to test: B=Boolean, T=Time, E=Error.
+- **report**: File to save the vulnerability report (default: report.txt).
 
 ## Examples
 
